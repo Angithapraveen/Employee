@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using StudentManagement.Data;
 using StudentManagement.Services;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IDepartmentService, DepartmentService>();
+builder.Services.AddTransient<IStudentService, StudentServices>();
+builder.Services.AddControllers()
+        .AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+        });
+
+
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     options.UseNpgsql("Host=localhost; Database=StudentInfoDB; Username=postgres; Password=123");

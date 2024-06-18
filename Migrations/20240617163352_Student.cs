@@ -1,13 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace StudentManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class DatabaseRelation : Migration
+    public partial class Student : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +18,7 @@ namespace StudentManagement.Migrations
                     DepartmentID = table.Column<string>(type: "text", nullable: false),
                     DepartmentName = table.Column<string>(type: "text", nullable: false),
                     Staffs = table.Column<int>(type: "integer", nullable: true),
-                    CreatedAt = table.Column<DateTime>(type: "CreatedAt", nullable: true)
+                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -30,11 +29,10 @@ namespace StudentManagement.Migrations
                 name: "Student",
                 columns: table => new
                 {
-                    RollNumber = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    StudentName = table.Column<string>(type: "text", nullable: false),
+                    RollNumber = table.Column<string>(type: "text", nullable: false),
+                    StudentName = table.Column<string>(type: "text", nullable: true),
                     CreateAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
-                    DepartmentID = table.Column<string>(type: "text", nullable: false)
+                    DepartmentID = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -43,8 +41,7 @@ namespace StudentManagement.Migrations
                         name: "FK_Student_Department_DepartmentID",
                         column: x => x.DepartmentID,
                         principalTable: "Department",
-                        principalColumn: "DepartmentID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "DepartmentID");
                 });
 
             migrationBuilder.CreateIndex(

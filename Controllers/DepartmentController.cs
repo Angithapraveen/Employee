@@ -11,10 +11,12 @@ namespace StudentManagement.Controllers
     public class DepartmentController : ControllerBase
     {
         private readonly IDepartmentService _service;
+        
 
         public DepartmentController(IDepartmentService service) {
 
             _service = service;
+           
         
         }
         

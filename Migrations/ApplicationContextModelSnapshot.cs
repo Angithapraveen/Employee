@@ -28,7 +28,7 @@ namespace StudentManagement.Migrations
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("CreatedAt")
-                        .HasColumnType("CreatedAt");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("DepartmentName")
                         .IsRequired()
@@ -44,21 +44,16 @@ namespace StudentManagement.Migrations
 
             modelBuilder.Entity("StudentManagement.Models.StudentModels.Student", b =>
                 {
-                    b.Property<int>("RollNumber")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("RollNumber"));
+                    b.Property<string>("RollNumber")
+                        .HasColumnType("text");
 
                     b.Property<DateTime?>("CreateAt")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("DepartmentID")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("StudentName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("RollNumber");
@@ -72,9 +67,7 @@ namespace StudentManagement.Migrations
                 {
                     b.HasOne("StudentManagement.Models.DepartmentModels.Department", "Department")
                         .WithMany("Students")
-                        .HasForeignKey("DepartmentID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DepartmentID");
 
                     b.Navigation("Department");
                 });

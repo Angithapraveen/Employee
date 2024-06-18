@@ -29,11 +29,7 @@ namespace StudentManagement.Data
                 .WithOne(s => s.Department)
                 .HasForeignKey(s => s.DepartmentID);
 
-            // Additional configurations for Department properties if needed
-            modelBuilder.Entity<Department>()
-                .Property(d => d.CreatedAt)
-                .HasColumnType("CreatedAt"); // Example of configuring datetime type
-
+            
             base.OnModelCreating(modelBuilder);
 
         }

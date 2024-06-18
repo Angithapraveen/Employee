@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\chira\\Desktop\\StudentManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\contracts\\studentcontracts\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:contracts\\studentcontracts\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\models\\departmentmodels\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:models\\departmentmodels\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\contracts\\studentcontracts\\studentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:contracts\\studentcontracts\\studentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\models\\studentmodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:models\\studentmodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|c:\\users\\chira\\desktop\\studentmanagement\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD9DE5-A602-4FE1-88FF-E1D07DBA90B3}|StudentManagement.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Data\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Data\\ApplicationContext.cs",
-              "RelativeToolTip": "Data\\ApplicationContext.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA2wCIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T01:20:32.913Z",
+              "Title": ".gitignore.txt",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\.gitignore.txt",
+              "RelativeDocumentMoniker": ".gitignore.txt",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\.gitignore.txt",
+              "RelativeToolTip": ".gitignore.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-18T01:24:30.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Models\\DepartmentModels\\Department.cs",
-              "RelativeDocumentMoniker": "Models\\DepartmentModels\\Department.cs",
-              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Models\\DepartmentModels\\Department.cs",
-              "RelativeToolTip": "Models\\DepartmentModels\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T00:35:30.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Models\\StudentModels\\Student.cs",
               "RelativeDocumentMoniker": "Models\\StudentModels\\Student.cs",
               "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Models\\StudentModels\\Student.cs",
               "RelativeToolTip": "Models\\StudentModels\\Student.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAyAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T15:50:59.025Z",
+              "WhenOpened": "2024-06-18T01:00:11.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Contracts\\StudentContracts\\StudentRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudentContracts\\StudentRequest.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Contracts\\StudentContracts\\StudentRequest.cs",
+              "RelativeToolTip": "Contracts\\StudentContracts\\StudentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:55:50.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Contracts\\StudentContracts\\StudentResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudentContracts\\StudentResponse.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Contracts\\StudentContracts\\StudentResponse.cs",
+              "RelativeToolTip": "Contracts\\StudentContracts\\StudentResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:50:48.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Services\\StudentServices.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Services\\StudentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:40:14.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:38:01.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwDsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:32:44.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:52:25.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:12:38.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\chira\\Desktop\\StudentManagement\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\chira\\Desktop\\StudentManagement\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "Data\\ApplicationContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:00:51.412Z",
               "EditorCaption": ""
             }
           ]

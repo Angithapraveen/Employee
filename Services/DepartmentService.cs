@@ -8,6 +8,7 @@ namespace StudentManagement.Services
     public class DepartmentService : IDepartmentService
     {
         private readonly ApplicationContext _database;
+
         public DepartmentService(ApplicationContext database) {
 
             _database = database;

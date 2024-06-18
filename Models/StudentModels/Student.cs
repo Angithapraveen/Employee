@@ -7,16 +7,16 @@ namespace StudentManagement.Models.StudentModels
     public class Student
     {
         [Key]
-        public int RollNumber { get; set; }
+        public string? RollNumber { get; set; }
 
-        public string StudentName { get; set; }
+        public string? StudentName { get; set; }
 
         public DateTime? CreateAt { get; set; }
 
         [ForeignKey("Department")]  
-        public string DepartmentID { get; set; } // Foreign key
+        public string? DepartmentID { get; set; } // Foreign key
 
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
 
         
        
